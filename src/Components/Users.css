@@ -1,0 +1,58 @@
+.userList {
+  display: flex;
+  padding: 20px;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+
+  padding-top: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  background-color: #fcfcfc; /* Replace with your desired background color */
+}
+
+.contact {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  padding-bottom: 20px;
+}
+
+.first {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (max-width: 480px) {
+  .first {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logout {
+    margin-top: 1rem;
+  }
+
+  .mainbox {
+    display: grid;
+    grid-template-columns: 1fr; /* Set a single column for smaller screens */
+    gap: 1rem; /* Adjust the gap between grid items as needed */
+    padding: 1rem;
+  }
+
+  .mainbox > * {
+    grid-column: 1; /* Ensure each grid item spans the full width of the column */
+  }
+}
+
+/* Adjust the styles of the ContactCard component if necessary */

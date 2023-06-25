@@ -1,0 +1,12 @@
+/* .login{
+    background-color: #CFEAE4;
+} */
+
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 30px;
+    background-color: #DCECE9; /* Replace with your desired background color */
+  }
+  
